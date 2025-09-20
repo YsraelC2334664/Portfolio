@@ -1,4 +1,3 @@
-// Add smooth scroll effect for navbar links
 document.querySelectorAll('a.nav-link').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
     e.preventDefault();
