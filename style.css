@@ -2,17 +2,15 @@ body {
   font-family: 'Segoe UI', sans-serif;
 }
 
-/* Hero Section */
 .hero {
   height: 100vh;
-  background: url('images/see.jpg') center/cover no-repeat;
+  background: url('images/Desktop.jpg') center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
 }
 
-/* Dark overlay for text readability */
 .hero::before {
   content: "";
   position: absolute;
@@ -25,14 +23,12 @@ body {
   z-index: 1;
 }
 
-/* Profile Image */
 .profile-img {
   max-width: 280px;
   border-radius: 12px;
   object-fit: cover;
 }
 
-/* Cards */
 .card {
   transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -41,7 +37,6 @@ body {
   box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
-/* Social Icons */
 .social-icons a {
   transition: color 0.3s;
 }
